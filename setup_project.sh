@@ -3,7 +3,7 @@
 # Initialize and update submodules script for Linux
 
 # Activate venv to prevent accidentally installing into global space
-source ./venv/bin/activate
+source ./venv/Scripts/activate
 
 if [ $? -eq 0 ]; then
     echo "Installing project dependencies..."
